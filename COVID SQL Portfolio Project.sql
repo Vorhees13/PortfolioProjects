@@ -40,7 +40,7 @@ ORDER BY TotalDeathCount DESC
 -- LETS BREAK DOWN BY CONTINENT 
 
 
--- Showing contintents with the highest dath count per population
+-- Showing contintents with the highest death count per population
 
 SELECT continent, MAX(cast(total_deaths as int)) as TotalDeathCount
 FROM CovidDeaths
